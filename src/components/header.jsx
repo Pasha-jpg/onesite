@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 function Header(){
     return (
     <>  
-     
      <div id="top-bar">
          <div className="container">
              <div className="col">
@@ -15,16 +14,14 @@ function Header(){
                         <div className="switcher">
                           <span><i className="globe"></i> English</span>                          
                         </div>
-                      </li>
-                      
-                                                      
+                      </li>                                              
                  </ul>
               </div>
           </div>
         </div>
      <div className="A">
         <h1>
-           <img src="/onesite/images/logo192.png" alt="Logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/logo192.png`} alt="ONE RING RENTALS Logo" />
         </h1>
         
         <nav className="Navbar">
@@ -35,9 +32,9 @@ function Header(){
                 <Link className="lk" to="/regions">Regions</Link>
                 <Link className="lk" to="/news">News</Link>
                 <Link className="lk" to="/contact">Contact</Link>
-                <Link className="lk">                 
+                <li className="lk">                 
                      <input type="text" name="q" placeholder="Search"/>
-                </Link>
+                </li>
           </ul>
         </nav>
      </div>
@@ -47,4 +44,5 @@ function Header(){
 }
 
 export default Header;
+
 
