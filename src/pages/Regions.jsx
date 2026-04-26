@@ -14,7 +14,7 @@ const Regions = () => {
         <div className="r-image">
             <h3>New South Wales</h3>
               <a href="/Regions" > <span className="location">Sydney</span> </a>
-              <img id="syd"  src="../../syd.jpg" alt="sydney-image" /> 
+              <img id="syd"  src="../onesite/public/images/syd.jpg" alt="sydney-image" /> 
         </div>
         <div className="r-image">
             <h3>Victoria</h3>
