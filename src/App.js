@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Regions from "./pages/Regions"; // Create this component
 import Contact from "./pages/Contact"; // Create this component
 import News from "./pages/News"; // Create this component
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   let userName= {
