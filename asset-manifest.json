@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/onesite/static/css/main.4b27363e.css",
+    "main.js": "/onesite/static/js/main.624e1bf0.js",
+    "static/js/453.f9ffd1be.chunk.js": "/onesite/static/js/453.f9ffd1be.chunk.js",
+    "index.html": "/onesite/index.html",
+    "main.4b27363e.css.map": "/onesite/static/css/main.4b27363e.css.map",
+    "main.624e1bf0.js.map": "/onesite/static/js/main.624e1bf0.js.map",
+    "453.f9ffd1be.chunk.js.map": "/onesite/static/js/453.f9ffd1be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b27363e.css",
+    "static/js/main.624e1bf0.js"
+  ]
+}
