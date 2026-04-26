@@ -21,7 +21,7 @@ function Header(){
         </div>
      <div className="A">
         <h1>
-            <img src={`${process.env.PUBLIC_URL}/images/logo192.png`} alt="Logo" />
+            <img src={`${process.env.PUBLIC_URL}/logo192.png`} alt="Logo" />
         </h1>
         
         <nav className="Navbar">
