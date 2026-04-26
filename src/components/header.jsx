@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
-import logo from 'onesite/images/logo192.png';  // Import the image
+
 function Header(){
-    const logoPath = `${process.env.PUBLIC_URL}/images/logo192.png`;
-    
     return (
     <>  
      
@@ -10,14 +8,16 @@ function Header(){
          <div className="container">
              <div className="col">
                   <ul id="top-buttons">
-                     <li><Link to="/"><i className="sign"></i>Login</Link></li>
-                     <li><Link to="/"><i className="square"></i>Register</Link></li>
+                     <li><a href="/"><i className="sign"></i>Login</a> </li>
+                     <li><a href="/"><i className="square"></i>Register</a></li>
                       <li className="divider"></li>
                       <li>
                         <div className="switcher">
                           <span><i className="globe"></i> English</span>                          
                         </div>
-                      </li>                        
+                      </li>
+                      
+                                                      
                  </ul>
               </div>
           </div>
@@ -25,7 +25,6 @@ function Header(){
      <div className="A">
         <h1>
             <img src={`${process.env.PUBLIC_URL}/logo192.png`} alt="Logo" />
-          
         </h1>
         
         <nav className="Navbar">
@@ -36,9 +35,9 @@ function Header(){
                 <Link className="lk" to="/regions">Regions</Link>
                 <Link className="lk" to="/news">News</Link>
                 <Link className="lk" to="/contact">Contact</Link>
-                <li className="lk">                 
+                <Link className="lk">                 
                      <input type="text" name="q" placeholder="Search"/>
-                </li>
+                </Link>
           </ul>
         </nav>
      </div>
@@ -48,3 +47,4 @@ function Header(){
 }
 
 export default Header;
+
