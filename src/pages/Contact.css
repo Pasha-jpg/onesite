@@ -1,0 +1,44 @@
+.title{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 28px;
+	font-weight: normal;
+
+}
+
+.contact-form{	
+	width: 85%;
+	background-color: white;
+	padding: 1%;
+	color: #74777c;
+	margin: auto;
+	font-weight: bold;
+	font-size: small;
+	
+}
+
+#cf{
+	
+	margin-left: 0;
+	width: 100%;
+	
+
+}
+.Form-control, .Form-group{
+	padding:1%;
+	width: 100%; 
+	color: #74777c;
+	
+
+	
+}
+
+.formbtn{
+	color: white;
+	background-color: #31a1ed;
+	border: none;
+	padding: 1%;
+	border-radius: 4px;
+
+}

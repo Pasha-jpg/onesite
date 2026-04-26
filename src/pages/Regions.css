@@ -1,0 +1,34 @@
+h2{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-size: 28px;
+  font-weight: normal;
+
+}
+
+.region-heading{
+	text-align: center;
+}
+.g {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 equal columns */
+  gap: 20px;  /* Space between grid items */
+  margin-top: 20px;
+  padding: 1%;
+}
+
+#syd,#vic,#bri 
+
+{width: 100%; height: 80%; }
+
+.r-image{
+  border-radius: 4px;
+  box-sizing: border-box; 
+  background-color: lightcyan;
+
+}
+.location { margin: 40%;}
+.r-image h3{
+  text-align: center;
+}
