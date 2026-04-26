@@ -2,7 +2,7 @@
 import React from 'react';
 import './Regions.css'; // Import the CSS file
 import React from 'react';
-import car from './images/syd.jpg'; // Import the image
+
 const Regions = () => {
   return (
     <div className="regions-page">
@@ -16,7 +16,7 @@ const Regions = () => {
         <div className="r-image">
             <h3>New South Wales</h3>
               <a href="/Regions" > <span className="location">Sydney</span> </a>
-              <img src={car} alt="This is a car image" />
+               <img id="syd"  src="/onesite/images/syd.jpg" alt="sydney-image" />
         </div>
         <div className="r-image">
             <h3>Victoria</h3>
