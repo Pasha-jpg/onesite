@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
 function Header(){
+    const logoPath = `${process.env.PUBLIC_URL}/images/logo192.png`;
+    
     return (
     <>  
      
@@ -8,24 +10,21 @@ function Header(){
          <div className="container">
              <div className="col">
                   <ul id="top-buttons">
-                     <li><a href="/"><i className="sign"></i>Login</a> </li>
-                     <li><a href="/"><i className="square"></i>Register</a></li>
+                     <li><Link to="/"><i className="sign"></i>Login</Link></li>
+                     <li><Link to="/"><i className="square"></i>Register</Link></li>
                       <li className="divider"></li>
                       <li>
                         <div className="switcher">
                           <span><i className="globe"></i> English</span>                          
                         </div>
-                      </li>
-                      
-                                                      
+                      </li>                        
                  </ul>
               </div>
           </div>
         </div>
      <div className="A">
         <h1>
-            <img src={`${process.env.PUBLIC_URL}/images/logo192.png`} alt="Logo" />
-      
+            <img src={logoPath} alt="Logo" />
         </h1>
         
         <nav className="Navbar">
@@ -36,9 +35,9 @@ function Header(){
                 <Link className="lk" to="/regions">Regions</Link>
                 <Link className="lk" to="/news">News</Link>
                 <Link className="lk" to="/contact">Contact</Link>
-                <Link className="lk">                 
+                <li className="lk">                 
                      <input type="text" name="q" placeholder="Search"/>
-                </Link>
+                </li>
           </ul>
         </nav>
      </div>
@@ -48,4 +47,3 @@ function Header(){
 }
 
 export default Header;
-
