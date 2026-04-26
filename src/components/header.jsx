@@ -21,7 +21,7 @@ function Header(){
         </div>
      <div className="A">
         <h1>
-            <img src={`${process.env.PUBLIC_URL}/images/logo192.png`} alt="ONE RING RENTALS Logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/logo192.png`} alt="Logo" />
         </h1>
         
         <nav className="Navbar">
@@ -44,5 +44,3 @@ function Header(){
 }
 
 export default Header;
-
-
