@@ -21,7 +21,7 @@ function Header(){
         </div>
      <div className="A">
         <h1>
-           <img src="./onesite/logo192.png" alt="Logo" />
+           <img src="./src/logo192.png" alt="Logo" />
         </h1>
         
         <nav className="Navbar">
