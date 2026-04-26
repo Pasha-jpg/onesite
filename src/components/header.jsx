@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import logo from 'onesite/images/logo192.png';  // Import the image
 function Header(){
     const logoPath = `${process.env.PUBLIC_URL}/images/logo192.png`;
     
@@ -24,7 +24,7 @@ function Header(){
         </div>
      <div className="A">
         <h1>
-            <img src={logoPath} alt="Logo" />
+          <img src="/onesite/images/logo192.png" alt="Logo" />
         </h1>
         
         <nav className="Navbar">
